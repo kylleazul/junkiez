@@ -1,88 +1,12 @@
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/7e8116745f.js" crossorigin="anonymous"></script>
-    <style>
-        body {
-            height: 200vh; /* Create enough scrollable content */
-            margin: 0;
-            background-color: #f2f2f2;
-        }
+    
+   
+  
+  <?php
 
-        .navbar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            background: #333;
-            color: #f2f2f2;
-            padding: 10px 20px;
-            transition: top 0.3s;
-           background-color: #f2f2f2;
-        }
-        .hidden {
-            opacity: 0;
-        }
-     
+    wp_head();
 
-        .sidenav {
-  height: 100%;
-  width: 0; /* Start hidden */
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0; /* Align to the right */
-  background-color: #f2f2f2;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav h1:hover {
-  color: black;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-
-.sidenav .title {
-  position: absolute;
-  top: 0;
-  left: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-  text-transform: uppercase;
-  color: black;
-}
-
-#main {
-  transition: margin-left .5s;
-  padding: 16px;
-}
-
-.header {
-            display: flex;
-            justify-content: space-between; /* Aligns items to the edges */
-            align-items: center; /* Centers items vertically */
-        }
-
-
-    </style>
+?>
 
 
 <nav class="navbar navbar-light ">

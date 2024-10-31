@@ -4,3 +4,108 @@ Text Domain: Greener Manila
 Version: 1.0
 Author: Edmond De Vera
 */
+
+
+.intro{
+    height: 100vh;
+   
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.video{
+    height: 100vh;
+  
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+.url{
+    height: 100vh;
+  
+    background-image: url("C:\xampp\htdocs\wordpress\wp-content\themes\junkiez\assets\images\images.jpg");
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    height: 200vh; /* Create enough scrollable content */
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    color: #f2f2f2;
+    padding: 10px 20px;
+    transition: top 0.3s;
+   background-color: #f2f2f2;
+}
+.hidden {
+    opacity: 0;
+}
+
+
+.sidenav {
+height: 100%;
+width: 0; /* Start hidden */
+position: fixed;
+z-index: 1;
+top: 0;
+right: 0; /* Align to the right */
+background-color: #f2f2f2;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+
+.sidenav h1:hover {
+color: black;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+
+.sidenav .title {
+position: absolute;
+top: 0;
+left: 25px;
+font-size: 36px;
+margin-left: 50px;
+text-transform: uppercase;
+color: black;
+}
+
+#main {
+transition: margin-left .5s;
+padding: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Aligns items to the edges */
+    align-items: center; /* Centers items vertically */
+}
