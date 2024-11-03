@@ -7,18 +7,27 @@ Author: Edmond De Vera
 
 
 .intro{
-    height: 100vh;
    
+   height: auto;
+   min-height: 100vh !important;
     background-color: #f2f2f2;
     margin: 0;
     padding: 0;
     
+
+}
+
+.intro-home{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .video{
     height: 100vh;
   
-    background-color: aqua;
+    background-color: #f2f2f2;
     margin: 0;
     padding: 0;
 }
@@ -35,19 +44,19 @@ Author: Edmond De Vera
 body {
     height: 200vh; /* Create enough scrollable content */
     margin: 0;
-    background-color: #f2f2f2;
+    color: black;
+   
 }
 
 .navbar {
-    position: fixed;
+    position: absolute !important;
     top: 0;
     left: 0;
     right: 0;
-    background: #333;
     color: #f2f2f2;
     padding: 10px 20px;
     transition: top 0.3s;
-   background-color: #f2f2f2;
+  z-index: 999 !important;
 }
 .hidden {
     opacity: 0;
@@ -91,10 +100,8 @@ margin-left: 50px;
 
 .sidenav .title {
 position: absolute;
-top: 0;
-left: 25px;
 font-size: 36px;
-margin-left: 50px;
+top: 0;
 text-transform: uppercase;
 color: black;
 }
@@ -109,3 +116,49 @@ padding: 16px;
     justify-content: space-between; /* Aligns items to the edges */
     align-items: center; /* Centers items vertically */
 }
+
+.bg-image {
+    /* The image used */
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgba(0, 0, 0, 0.29); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.196); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    height: 90%;
+    text-align: center;
+  }
+
+  .intro-image {
+    height: auto;
+    width: 100%;
+  }
+
+  .text-content{
+
+    background-color: rgba(33, 226, 45, 0.659);
+    color: black;
+
+  }
