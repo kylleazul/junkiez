@@ -10,7 +10,7 @@ Author: Edmond De Vera
    
    height: auto;
    min-height: 100vh !important;
-    background-color: #f2f2f2;
+    background-color: #a1be9ffa;
     margin: 0;
     padding: 0;
     
@@ -35,7 +35,6 @@ Author: Edmond De Vera
 .url{
     height: 100vh;
   
-    background-image: url("C:\xampp\htdocs\wordpress\wp-content\themes\junkiez\assets\images\images.jpg");
     margin: 0;
     padding: 0;
     
@@ -45,7 +44,7 @@ body {
     height: 200vh; /* Create enough scrollable content */
     margin: 0;
     color: black;
-   
+
 }
 
 .navbar {
@@ -57,9 +56,13 @@ body {
     padding: 10px 20px;
     transition: top 0.3s;
   z-index: 999 !important;
+   
 }
 .hidden {
     opacity: 0;
+}
+.not-hidden {
+  opacity: 1 !important;
 }
 
 
@@ -96,14 +99,21 @@ right: 25px;
 font-size: 36px;
 margin-left: 50px;
 }
-
-
+@media screen and (min-width: 1100px) {
+  .navbar-brand {
+    margin: 0 15%;
+  }
+}
 .sidenav .title {
 position: absolute;
 font-size: 36px;
 top: 0;
 text-transform: uppercase;
 color: black;
+
+}
+.sidenav .text-menu{
+  font-size: 5vh;
 }
 
 #main {
@@ -158,7 +168,106 @@ padding: 16px;
 
   .text-content{
 
-    background-color: rgba(33, 226, 45, 0.659);
+    background-color: rgb(67, 104, 67);
     color: black;
 
   }
+
+
+  .blurred-background {
+  /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    filter: blur(5px);
+    position: absolute;
+
+   left: 0;
+    right: 0;
+    z-index: 99; /* Send the background to the back */
+}
+
+.content-map {
+    position: relative;
+    z-index: 100; /* Bring the text above the background */
+    color: white; /* Text color */
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+/* CSS */
+.button-57 {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #345635;
+  color: #345635;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 18px 18px 17px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-57 span:first-child {
+  position: relative;
+  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 10;
+}
+
+.button-57 span:last-child {
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(225%) translateX(-50%);
+  height: 14px;
+  line-height: 13px;
+}
+
+.button-57:after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #6b8f71;
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+}
+
+.button-57:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-57:hover span:last-child {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 1;
+  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+.find-junk{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.651);
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+
+}
