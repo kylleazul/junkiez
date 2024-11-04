@@ -1,0 +1,120 @@
+.iconContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.mainContainer {
+    display: flex;
+    padding: 0 15% !important;
+    gap: 40px;
+
+}
+
+.mainContainer .firstSection {
+    flex: 2;
+}
+
+.mainContainer .secondSection {
+    flex: 1;
+}
+
+.imgBody {
+    width: 100%;   
+    height: auto;  
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1/1;
+  }
+
+.secondSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.secondSectionFirstImg .imgBody1 {
+    width: 100%;   
+    height: auto;  
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 7/5;
+  }
+
+.secondSectionSecondImg .imgBody2 {
+    width: 100%;   
+    height: auto;  
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 7/5;
+  }
+
+  .wholeImgContainer {
+    margin: 40px 0;
+    position: relative;
+  }
+
+  .wholeImgContainer .floatingText {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-size: 90px;
+  }
+
+  .imgBody3 {
+    object-fit: cover;
+    object-position: center;
+    width:100%;height:auto;
+    aspect-ratio: 7/5;
+  }
+
+  .threeColumnImgContainer {
+    display: flex;
+    padding: 40px 15% !important;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    background-color: #0D2B1D;
+  }
+
+  .threeColumnImgContainer h3 {
+    color: white;
+    text-align: center;
+  }
+
+  .threeColumnImgContainer .firstSection,   
+  .threeColumnImgContainer .thirdSection,   
+  .threeColumnImgContainer .secondSection  {
+    flex: 1;
+  }
+
+  .threeColumnImgContainer .firstSection .imgBody4 {
+    object-fit: cover;
+    object-position: center;
+    width:100%;
+    height:auto;
+    aspect-ratio: 5/7;
+    /* padding: 0 50px; */
+  }
+
+  .threeColumnImgContainer .secondSection .imgBody4 {
+    object-fit: cover;
+    object-position: center;
+    width:100%;
+    height:auto;
+    aspect-ratio: 5/7;
+    /* padding: 0 30px; */
+  }
+
+  .threeColumnImgContainer .thirdSection .imgBody4 {
+    object-fit: cover;
+    object-position: center;
+    width:100%;
+    height:auto;
+    aspect-ratio: 5/7;
+  }
