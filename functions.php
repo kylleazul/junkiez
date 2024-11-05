@@ -4,6 +4,7 @@ function greenermanila_register_styles(){
 
     $version = wp_get_theme()->get('Version');
     wp_enqueue_style('style', get_template_directory_uri() . "/style.css", array(), $version, 'all');
+    wp_enqueue_style('stylesniKylle', get_template_directory_uri() . "/stylesniKylle.css", array(), $version, 'all');
     wp_enqueue_style('bootstrap', "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css", array(), '4.5', 'all');
    
     
