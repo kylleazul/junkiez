@@ -15,7 +15,7 @@ wp_head();
 
 
 </head>
-<body>
+<body  class="h-100">
   
   
 <nav class="navbar navbar-light position-sticky z-3">
@@ -33,8 +33,8 @@ wp_head();
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="p-4 m-4">
 
-        <a href="/wp-content/themes/junkiez/intro.php" class="text-menu">HOME</a>
-        <a href="#" class="text-menu">ADVOCACY</a>
+        <a href="/wordpress/6-2" class="text-menu">HOME</a>
+        <a href="/wordpress/advocacy" class="text-menu">ADVOCACY</a>
         <a href="#" class="text-menu">START YOUR JOURNEY</a>
         <a href="#" class="text-menu">CONTACT US</a>
 
