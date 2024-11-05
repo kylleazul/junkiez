@@ -260,3 +260,13 @@
   
   }
   
+
+
+  /* CSS FOR VIDEO.PHP */
+
+  .videoLink {
+    display: flex;
+    justify-content: center;
+  }
+
+  
