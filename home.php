@@ -49,16 +49,16 @@ Template Name: Home Template
 </div> -->
 
 <div class="scroll-container">
-    <ul>
-        <li>
+    <ul class="unOrdered">
+        <li class="ListIto">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cropped_DSC09909.JPG" alt="" class="imgBody4">
             <h3>What's happening around you?</h3>
         </li>
-        <li>
+        <li class="ListIto">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cropped_DSC09719.JPG" alt="" class="imgBody5">  
             <h3>Know your trash</h3>
         </li>
-        <li>
+        <li class="ListIto">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/DSC09499.JPG" alt="" class="imgBody6">
             <h3>Become Trash-worthy</h3>
         </li>
