@@ -15,26 +15,30 @@ wp_head();
 
 
 </head>
-<body>
+<body  class="h-100">
   
   
 <nav class="navbar navbar-light position-sticky z-3">
-    <a class="navbar-brand hidden" href="#">JunkieZ</a>
+  <img class="navbar-brand hidden" width="150" height="auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/junkiez.png;" alt="">
+
+  <!--  <a class="navbar-brand hidden" href="#">JunkieZ</a>-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon align-items-end justify-content-end" onclick="openNav()"></span>
+        <span class=" align-items-end justify-content-end text-dark" onclick="openNav()">Menu</span>
     </button>
 
     <div id="mySidenav" class="sidenav ">
+    <img class="title r-md-25px p-4" width="200" height="auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/junkiez.png;" alt="">
    
-    <a class="title r-md-25px" href="#">JunskieZ</a>
-  
+      
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="p-4 m-4">
-  <a href="/wp-content/themes/junkiez/intro.php" class="h3 md-h1">Introduction</a>
-  <a href="#" class="h3 md-h1">MVA</a>
-  <a href="#" class="h3 md-h1">Infographics</a>
-  <a href="#" class="h3 md-h1">Articles</a>
-  <a href="#" class="h3 md-h1">Articles</a>
+
+        <a href="/wordpress/6-2" class="text-menu">HOME</a>
+        <a href="/wordpress/advocacy" class="text-menu">ADVOCACY</a>
+        <a href="#" class="text-menu">START YOUR JOURNEY</a>
+        <a href="#" class="text-menu">CONTACT US</a>
+
+ 
  
 
   <div class="footer  d-block d-md-flex justify-content-between align-items-start p-2 m-2 p-md-4 m-md-4 mt-sm-4">
